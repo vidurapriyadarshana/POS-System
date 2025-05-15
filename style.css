@@ -1,0 +1,40 @@
+body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f6f9;
+      }
+      .sidebar {
+        min-height: 100vh;
+        background-color: #343a40;
+        padding-top: 20px;
+      }
+      .sidebar a {
+        color: #ffffff;
+        padding: 10px 20px;
+        display: block;
+        text-decoration: none;
+      }
+      .sidebar a:hover {
+        background-color: #495057;
+      }
+      .main-content {
+        padding: 20px;
+      }
+      .navbar {
+        background-color: #007bff;
+      }
+      .navbar-brand,
+      .nav-link {
+        color: #ffffff !important;
+      }
+      .card {
+        border: none;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+      .table {
+        background-color: #ffffff;
+      }
+      @media (max-width: 768px) {
+        .sidebar {
+          min-height: auto;
+        }
+      }
